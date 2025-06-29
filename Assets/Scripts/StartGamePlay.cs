@@ -20,6 +20,6 @@ public class StartGamePlay : MonoBehaviour
     public void SwitchToGamePlay()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("GamePlay");
+        SceneManager.LoadScene("GameHelper");
     }
 }

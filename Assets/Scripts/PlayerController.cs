@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     public float runSpeed = 4f;
     public float walkSpeed = 2f;
 
+    public GameObject damageIndicatorPanel;
+
     // assign the player rigidbody and animator objects
     private Rigidbody playerRigidBody;
     private Animator playerAnimator;
@@ -72,8 +74,16 @@ public class PlayerController : MonoBehaviour
             if (!enemyAnimator.GetBool("Dead"))
             {
                 MainGameLogic.gameLogicSingleton.audioSource.PlayOneShot(enemy.enemyDamageAudioClip);
+                damageIndicatorPanel.SetActive(true);
+                StartCoroutine(DamageIndicatorDeactive());
             }
 
         }
+    }
+
+    IEnumerator DamageIndicatorDeactive()
+    {
+        yield return new WaitForSeconds(1);
+        damageIndicatorPanel.SetActive(false);
     }
 }

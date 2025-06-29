@@ -17,6 +17,11 @@ public class SceneManagement : MonoBehaviour
         
     }
 
+    public void StartGamePlay()
+    {
+        SceneManager.LoadScene("GamePlay");
+    }
+
     public void StartGameOver()
     {
         SceneManager.LoadScene("GameOver");
@@ -30,5 +35,10 @@ public class SceneManagement : MonoBehaviour
     public void StartMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
+    }
+
+    public void StartGameHelper()
+    {
+        SceneManager.LoadScene("GameHelper");
     }
 }

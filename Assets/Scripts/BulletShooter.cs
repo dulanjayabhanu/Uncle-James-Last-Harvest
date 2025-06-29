@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class BulletShooter : MonoBehaviour
 {
@@ -12,7 +13,11 @@ public class BulletShooter : MonoBehaviour
     public Transform firePoint;
     public Transform muzzleFlashPoint;
     public float bulletForce = 0.2f;
-    
+
+    public GraphicRaycaster raycaster;
+    public EventSystem eventSystem;
+    public GameObject damagePanel;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,11 +30,47 @@ public class BulletShooter : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            if (!EventSystem.current.IsPointerOverGameObject())
+            if (!UserClickEventValidate())
             {
                 BulletShoot();
             }
         }
+    }
+
+    bool UserClickEventValidate()
+    {
+        PointerEventData pointerEventData = new PointerEventData(eventSystem);
+        pointerEventData.position = Input.mousePosition;
+
+        List<RaycastResult> results = new List<RaycastResult>();
+        raycaster.Raycast(pointerEventData, results);
+
+        foreach (RaycastResult result in results)
+        {
+            if (result.gameObject != damagePanel && !IsChildOfDamageIndicator(result.gameObject, damagePanel))
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    bool IsChildOfDamageIndicator(GameObject targetObject, GameObject potentialParent)
+    {
+        Transform targetTransform = targetObject.transform;
+        
+        while (targetTransform != null)
+        {
+            if (targetTransform.gameObject == potentialParent)
+            { 
+                return true;
+            } 
+
+            targetTransform = targetTransform.parent;
+        }
+
+        return false;
     }
 
     void BulletShoot()
