@@ -1,3 +1,7 @@
+<div align="left">
+  <img src="documentation-assets/Main_poster.webp" alt="Main poster of Uncle-James-Last-Harvest game"/>
+</div>
+
 <h1 align="center">Uncle James’s Last Harvest</h1>
 <p align="center">A 3D Side-Scroller Game by From Alnilam</p>
 
@@ -16,6 +20,10 @@
 
 ## 1. Introduction
 
+<div align="left">
+  <img src="documentation-assets/Game_play2.webp" alt="Game play2 screenshot"/>
+</div>
+
 **Uncle James’s Last Harvest** is a 3D side-scroller action-adventure game developed using Unity. The player controls Uncle James, a determined old farmer protecting his crops from mutated, oversized rats. Although the rats appear cute, they are highly dangerous due to radiation exposure from a nearby nuclear facility. The game blends shooting, movement, and collection mechanics with a humorous but intense storyline.
 
 ## 2. Game Story
@@ -25,6 +33,11 @@ Once upon a time, in a peaceful corner of the countryside, lived an old farmer n
 Though they looked innocent and adorable, these rats became a threat to his harvest. Day by day, they crept into his farm and stole his crops. With his livelihood under attack, Uncle James grabbed his AK-47 and set out to confront the threat. It was no longer just about farming — it became a fight for survival and dignity. This is the story of **Uncle James’s Last Harvest**.
 
 ## 3. Features
+
+<div align="center">
+  <img src="documentation-assets/Game_play1.webp" alt="Game play1 screenshot" width="49%"/>
+  <img src="documentation-assets/Game_play3.webp" alt="Game play3 screenshot" width="49%"/>
+</div>
 
 - 3D side-scroller movement and gameplay  
 - Shooting mechanic with AK-47  
@@ -96,12 +109,13 @@ From Alnilam
 
 ## 9. Credits
 
+<div align="left">
+  <img src="documentation-assets/MainLogo.webp" width="15%" alt="Main poster of Online Auction System"/>
+</div>
+
 - **Developer:** Dulanjaya Bhanu - From Alnilam</br>
 - **Engine:** Unity
 
-
-
-  
 - **3D Assets:**
 
   - Player Model  
@@ -166,6 +180,7 @@ From Alnilam
   License: Free for use under the Pixabay [Content License](https://pixabay.com/service/license-summary/)
 
 
-- **Testing & Feedback:**  
-  Ongoing – More feedback will be credited in upcoming releases.
-
+- **Testing & Feedback:**
+  - Internal testing conducted by [Dulanjaya Bhanu (developer)](https://github.com/dulanjayabhanu) and [Kusal Gunawardana (tester)](https://github.com/Kusal-Gunawardana-KMPG)  
+  - Additional feedback from early users (Senura Lakshan, Sigiri Janadipa)
+  - Special thanks to everyone who tried [v1.1](https://github.com/dulanjayabhanu/Uncle-James-Last-Harvest/releases/tag/v1.1) and shared their thoughts
