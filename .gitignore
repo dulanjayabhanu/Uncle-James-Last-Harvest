@@ -1,0 +1,67 @@
+# =============== #
+# Unity Generated #
+# =============== #
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# =============== #
+# Visual Studio   #
+# =============== #
+.vs/
+*.csproj
+*.sln
+*.suo
+*.user
+*.unityproj
+
+# =============== #
+# OS Specific     #
+# =============== #
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# =============== #
+# Builds & Exports#
+# =============== #
+*.apk
+*.exe
+*.zip
+
+# =============== #
+# Unity Cache/Other
+# =============== #
+MemoryCaptures/
+sysinfo.txt
+
+# =============== #
+# JetBrains IDEs (like Rider)
+# =============== #
+.idea/
+*.iml
+
+# =============== #
+# Crash/Profiler Reports
+# =============== #
+*.stacktrace
+
+# =============== #
+# Rider
+# =============== #
+*.sln.docstates
+
+# =============== #
+# Unity Collaborate
+# =============== #
+.collabignore
+.Collab/
+
+# =============== #
+# Auto-generated VS Code settings
+# =============== #
+.vscode/

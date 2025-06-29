@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: 0cfa9581208a9c44f8e7c53180c58c05
+timeCreated: 1466945594
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BackLeft
+    100002: BackRight
+    100004: Body
+    100006: CarCollider
+    100008: FrontAC
+    100010: FrontLeft
+    100012: FrontRight
+    100014: Logo
+    100016: //RootNode
+    100018: NumberPLate
+    100020: NumberPLate1
+    100022: pCube1
+    100024: pCube1 1
+    100026: Plates
+    100028: polySurface2
+    100030: polySurface3
+    100032: polySurface4
+    100034: polySurface5
+    100036: polySurface6
+    100038: polySurface7
+    100040: polySurface8
+    100042: transform1
+    100044: Trim_Char_H_1_1
+    100046: Trim_Char_H_1_1 1
+    100048: Trim_Char_H_2_1
+    100050: Trim_Char_H_2_1 1
+    100052: Trim_Char_R_1_1
+    100054: Trim_Char_R_1_1 1
+    100056: Trim_Char_x_1_1
+    100058: Trim_Char_x_1_1 1
+    100060: Trim_Char_x_2_1
+    100062: Trim_Char_x_2_1 1
+    100064: Trim_Char_x_3_1
+    100066: Trim_Char_x_3_1 1
+    100068: Trim_Char_x_4_1
+    100070: Trim_Char_x_4_1 1
+    100072: Trim_Char_x_5_1
+    100074: Trim_Char_x_5_1 1
+    100076: Trim_Char_x_6_1
+    100078: Trim_Char_x_6_1 1
+    100080: Wheels
+    400000: BackLeft
+    400002: BackRight
+    400004: Body
+    400006: CarCollider
+    400008: FrontAC
+    400010: FrontLeft
+    400012: FrontRight
+    400014: Logo
+    400016: //RootNode
+    400018: NumberPLate
+    400020: NumberPLate1
+    400022: pCube1
+    400024: pCube1 1
+    400026: Plates
+    400028: polySurface2
+    400030: polySurface3
+    400032: polySurface4
+    400034: polySurface5
+    400036: polySurface6
+    400038: polySurface7
+    400040: polySurface8
+    400042: transform1
+    400044: Trim_Char_H_1_1
+    400046: Trim_Char_H_1_1 1
+    400048: Trim_Char_H_2_1
+    400050: Trim_Char_H_2_1 1
+    400052: Trim_Char_R_1_1
+    400054: Trim_Char_R_1_1 1
+    400056: Trim_Char_x_1_1
+    400058: Trim_Char_x_1_1 1
+    400060: Trim_Char_x_2_1
+    400062: Trim_Char_x_2_1 1
+    400064: Trim_Char_x_3_1
+    400066: Trim_Char_x_3_1 1
+    400068: Trim_Char_x_4_1
+    400070: Trim_Char_x_4_1 1
+    400072: Trim_Char_x_5_1
+    400074: Trim_Char_x_5_1 1
+    400076: Trim_Char_x_6_1
+    400078: Trim_Char_x_6_1 1
+    400080: Wheels
+    2300000: BackLeft
+    2300002: BackRight
+    2300004: Body
+    2300006: CarCollider
+    2300008: FrontLeft
+    2300010: FrontRight
+    2300012: Logo
+    2300014: pCube1
+    2300016: pCube1 1
+    2300018: polySurface2
+    2300020: polySurface3
+    2300022: polySurface4
+    2300024: polySurface5
+    2300026: polySurface6
+    2300028: polySurface7
+    2300030: polySurface8
+    2300032: Trim_Char_H_1_1
+    2300034: Trim_Char_H_1_1 1
+    2300036: Trim_Char_H_2_1
+    2300038: Trim_Char_H_2_1 1
+    2300040: Trim_Char_R_1_1
+    2300042: Trim_Char_R_1_1 1
+    2300044: Trim_Char_x_1_1
+    2300046: Trim_Char_x_1_1 1
+    2300048: Trim_Char_x_2_1
+    2300050: Trim_Char_x_2_1 1
+    2300052: Trim_Char_x_3_1
+    2300054: Trim_Char_x_3_1 1
+    2300056: Trim_Char_x_4_1
+    2300058: Trim_Char_x_4_1 1
+    2300060: Trim_Char_x_5_1
+    2300062: Trim_Char_x_5_1 1
+    2300064: Trim_Char_x_6_1
+    2300066: Trim_Char_x_6_1 1
+    3300000: BackLeft
+    3300002: BackRight
+    3300004: Body
+    3300006: CarCollider
+    3300008: FrontLeft
+    3300010: FrontRight
+    3300012: Logo
+    3300014: pCube1
+    3300016: pCube1 1
+    3300018: polySurface2
+    3300020: polySurface3
+    3300022: polySurface4
+    3300024: polySurface5
+    3300026: polySurface6
+    3300028: polySurface7
+    3300030: polySurface8
+    3300032: Trim_Char_H_1_1
+    3300034: Trim_Char_H_1_1 1
+    3300036: Trim_Char_H_2_1
+    3300038: Trim_Char_H_2_1 1
+    3300040: Trim_Char_R_1_1
+    3300042: Trim_Char_R_1_1 1
+    3300044: Trim_Char_x_1_1
+    3300046: Trim_Char_x_1_1 1
+    3300048: Trim_Char_x_2_1
+    3300050: Trim_Char_x_2_1 1
+    3300052: Trim_Char_x_3_1
+    3300054: Trim_Char_x_3_1 1
+    3300056: Trim_Char_x_4_1
+    3300058: Trim_Char_x_4_1 1
+    3300060: Trim_Char_x_5_1
+    3300062: Trim_Char_x_5_1 1
+    3300064: Trim_Char_x_6_1
+    3300066: Trim_Char_x_6_1 1
+    4300000: FrontRight
+    4300002: BackRight
+    4300004: BackLeft
+    4300006: FrontLeft
+    4300008: Body
+    4300010: polySurface2
+    4300012: polySurface3
+    4300014: polySurface4
+    4300016: polySurface5
+    4300018: polySurface6
+    4300020: polySurface7
+    4300022: polySurface8
+    4300024: Logo
+    4300026: Trim_Char_H_1_1
+    4300028: Trim_Char_R_1_1
+    4300030: Trim_Char_H_2_1
+    4300032: Trim_Char_x_1_1
+    4300034: Trim_Char_x_2_1
+    4300036: Trim_Char_x_3_1
+    4300038: Trim_Char_x_4_1
+    4300040: Trim_Char_x_5_1
+    4300042: Trim_Char_x_6_1
+    4300044: pCube1
+    4300046: Trim_Char_H_1_1
+    4300048: Trim_Char_R_1_1
+    4300050: Trim_Char_H_2_1
+    4300052: Trim_Char_x_1_1
+    4300054: Trim_Char_x_2_1
+    4300056: Trim_Char_x_3_1
+    4300058: Trim_Char_x_4_1
+    4300060: Trim_Char_x_5_1
+    4300062: Trim_Char_x_6_1
+    4300064: pCube1
+    4300066: CarCollider
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
